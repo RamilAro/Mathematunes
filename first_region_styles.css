@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('first_region_bg.jpg'); /* Add your background image */
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+.first-region-container {
+    /* Style for the content in the first region goes here */
+}

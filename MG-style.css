@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('math-bg.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 1;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0;
+    color: #333;
+}
+
+p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+button {
+    background-color: #f39c12;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #e74c3c;
+}
+
+.music-notes {
+    position: absolute;
+    animation: float-music 5s infinite alternate;
+}
+
+.music-notes .note {
+    font-size: 30px;
+}
+
+.math-notations {
+    position: absolute;
+    animation: float-math 7s infinite alternate;
+}
+
+.math-notations .math-symbol {
+    font-size: 40px;
+}
+
+@keyframes float-music {
+    0%, 100% {
+        transform: translate(calc(0px), 0);
+    }
+    25% {
+        transform: translate(calc(0px), -50px);
+    }
+    50% {
+        transform: translate(calc(0px), 0);
+    }
+    75% {
+        transform: translate(calc(0px), -40px);
+    }
+}
+
+@keyframes float-math {
+    0%, 100% {
+        transform: translate(calc(0px), 0);
+    }
+    25% {
+        transform: translate(calc(0px), 50px);
+    }
+    50% {
+        transform: translate(calc(0px), 0);
+    }
+    75% {
+        transform: translate(calc(0px), 40px);
+    }
+}
+
+
+
+
+
+
+
+
+
